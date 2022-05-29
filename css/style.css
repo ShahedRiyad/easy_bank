@@ -1,0 +1,209 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:PublicSans-Thin_Light ;
+    src: url(../font/PublicSans-Light.ttf);
+}
+@font-face {
+    font-family:PublicSans-Regular ;
+    src: url(../font/PublicSans-Regular.ttf);
+}
+.container{
+    padding-left:60px;
+    padding-right: 60px;
+    margin-top: 10px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+
+}.icon{
+    margin-top: 30px;
+}
+.nav{
+    text-decoration: none;
+    margin: 15px;
+}
+.main-nav{
+    display: inline-block;
+    justify-content: space-between;
+    margin-top: 20PX;
+}.header{
+    display: flex;
+}
+.main-text{
+    justify-content: space-between;
+    margin-top:70px;
+}
+.text{
+    font-family:PublicSans-Thin_Light ;
+    font-size: 48px;
+    color: #242A45;
+    margin-top: 10px;
+}
+.txt{
+    font-family:PublicSans-Regular ;
+    font-size: 18;
+    color: #707070;  
+}
+.start-btn{
+    background:#2D314D;
+    color:#fff;
+    text-transform: capitalize;
+    font-family: PublicSans-Thin_Light ;
+    border:none;
+    font-size: 10px; 
+    width: 156px;
+    height:40px;
+    direction: center;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.start-btn:hover{
+    background-color: #707070;
+}
+.img{
+    width:80%;
+    margin-top: 25px;
+    }
+    .download{
+        text-align: left;
+        font-family: PublicSans-Thin_Light ;
+        width: 50%;
+        margin-right: 10px;
+    }
+    .shape{
+        text-align:left;
+        font-family: PublicSans-Thin_Light ;
+        font-size: 28px;
+        color: #242A45;
+    }
+    .short-text{
+        font-family:PublicSans-Regular ;
+        font-size: 18;
+        color:#707070; 
+    }
+   .cards{
+       display: flex;
+       justify-content: space-between;
+       margin-top:10%;
+       background-color: #F4F5F7;
+   }
+    .id-card{
+        margin-top: 5px;
+        margin-right: 20px;
+        padding:2px 2px;
+    }
+    .browse{
+        margin-top: 12px;
+        color: #242A45;
+    }
+    .app{
+        margin-top: 12px;
+        color: #707070;
+    }
+    .lastest{
+        font-size: 40px;
+        font-family: PublicSans-Thin_Light;
+        color: #2D314D;
+        padding-top:84px ;
+        padding-bottom:47px ;
+     }
+    .picture{
+        display: flex;
+    }
+    .words{
+        padding-right: 30px;
+        padding-bottom: 80px;
+    }
+    .way{
+          font-family:PublicSans-Regular ;
+          font-size:10px ;
+          color: #9597A5;
+          padding-bottom: 11px;
+          padding-top: 27px;
+    }
+    .fees{
+        font-family:PublicSans-Thin_Light ;
+        font-size:16px ;
+        color: #2D314D;
+        padding-bottom: 8px;
+    }
+    .site{
+        font-family:PublicSans-Regular ;
+        font-size:13px ;
+        color: #9597A5;
+        padding-bottom: 8px;
+    }
+    .account{
+        display: flex;
+        padding-left: 165px;
+        padding-right:640px ;
+        padding-top:48px ;
+    }
+    .end-picture{
+        padding-right:140px ;
+        color: white;
+    }
+    .type{
+        font-family: PublicSans-Regular;
+        padding-right: 60px;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding-bottom: 28px;
+     
+    }
+    .contact{
+        font-family: PublicSans-Regular;
+        padding-left:450px ;
+        padding-top: 14px;
+        padding-right: 60px;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding-bottom: 14px;
+    }
+    .support{
+        font-family: PublicSans-Regular;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding-top: 14px;
+        padding-left: 25px;
+        padding-right: 45px;
+        padding-bottom: 14px;
+    }
+    .kind{
+        color: #FAFAFA;
+        padding-right: 13px;
+    }
+
+.parts{
+    display: flex;
+}
+    .icons{
+        padding-left: 165px;
+        padding-top:55.3px ;
+        padding-right: 131px;
+        padding-bottom:48px ;
+    }
+    .work{
+        font-family: PublicSans-Regular;
+        padding-top: 48px;
+        padding-right: 69px;
+        font-size: 15px;
+        padding-left: 17px;
+        color: #FFFFFF;
+        padding-bottom: 14px;
+    }
+    .request{
+        font-family: PublicSans-Thin_Bold;
+        padding:30px 30px 30px 30px ;
+        color: #FFFFFF;
+        background-color: #30C88F;
+        border-radius: 30px;
+        font-size: 14px;
+        margin-top: 40px;
+        margin-left: 150px;
+    }
